@@ -1,0 +1,5 @@
+title: AzSprue
+description: Paint stash and model companion for iPhone
+theme: minima
+exclude:
+  - README.md
