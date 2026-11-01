@@ -5,7 +5,7 @@ permalink: /privacy/
 
 # Privacy policy
 
-Last updated 30 October 2026.
+Last updated 1 November 2026.
 
 **AzSprue** is a paint inventory and model companion made by Alexey Zatsepin (“we”). It has no account and no server.
 
@@ -15,7 +15,7 @@ Last updated 30 October 2026.
 
 **Network use.** The app works offline. It makes two kinds of network request, both only when you ask for them:
 
-- **Analyse pages** sends to OpenAI, with your own OpenAI API key: images of the instruction pages you selected, the text layer of those pages when it is a PDF, the kit's name and the selected variant. Nothing else about you or your inventory is sent. **Test connection** sends a short test message and no pages. OpenAI handles these under its own terms and privacy policy, including how long it keeps API requests; the app asks OpenAI not to store the response (`store: false`).
+- **Analyse pages** and **AI scan** send to OpenAI, with your own OpenAI API key: images of the instruction pages you selected or the photo of a paint list you took, the text layer of those pages when it is a PDF, the kit's name and the selected variant. Nothing else about you or your inventory is sent. **Test connection** sends a short test message and no pages. OpenAI handles these under its own terms and privacy policy, including how long it keeps API requests; the app asks OpenAI not to store the response (`store: false`).
 - If you turn on **Fallback to UPCitemdb** in Settings (it is off until you do), the digits of a scanned barcode that the app does not know are sent to upcitemdb.com to look up the product name. Nothing else is sent: no account, key, inventory, photo or label text. Like any web request it reaches the service from your network's IP address, and the request is subject to UPCitemdb's terms.
 
 Apart from these two features, which you start yourself, the app sends nothing over the network.
