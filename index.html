@@ -1,0 +1,231 @@
+---
+layout: null
+permalink: /
+---
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+<head>
+  {% include head.html root="" %}
+  <title>AzSprue – your paints and model kits on your iPhone</title>
+  <meta name="description" content="Never buy the same paint twice. AzSprue keeps your paint rack, your model kits and your shopping list on your iPhone.">
+  <meta property="og:title" content="AzSprue">
+  <meta property="og:description" content="Never buy the same paint twice. Your paint rack, your kits and your shopping list on your iPhone.">
+  <meta property="og:image" content="screenshots/01-inventory.png">
+</head>
+<body class="bg-white font-sans text-slate-900 antialiased dark:bg-navy-deep dark:text-slate-100">
+
+  <!-- Hero -->
+  <header class="relative overflow-hidden bg-navy text-white">
+    <div class="pointer-events-none absolute -right-40 -top-40 h-[32rem] w-[32rem] rounded-full bg-sprue/30 blur-3xl"></div>
+    <div class="pointer-events-none absolute -bottom-48 -left-32 h-[28rem] w-[28rem] rounded-full bg-brass/10 blur-3xl"></div>
+
+    <nav class="relative mx-auto flex max-w-6xl items-center justify-between px-4 py-5 sm:px-6">
+      <a href="./" class="flex items-center gap-3">
+        <img src="icon.png" alt="" class="h-10 w-10 rounded-xl ring-1 ring-white/10">
+        <span class="text-lg font-semibold tracking-tight">AzSprue</span>
+      </a>
+      <div class="hidden gap-8 text-sm text-slate-300 sm:flex">
+        <a href="#features" class="hover:text-white">Features</a>
+        <a href="#screenshots" class="hover:text-white">Screenshots</a>
+        <a href="#support" class="hover:text-white">Support</a>
+      </div>
+    </nav>
+
+    <div class="relative mx-auto grid max-w-6xl items-center gap-12 px-4 pb-20 pt-8 sm:px-6 md:grid-cols-2 md:pb-28 md:pt-12">
+      <div>
+        <p class="mb-5 inline-flex items-center gap-2 rounded-full bg-white/10 px-3 py-1 text-sm text-sprue-light ring-1 ring-white/10">
+          <span class="h-2 w-2 rounded-full bg-brass"></span> Coming soon to the App Store
+        </p>
+        <h1 class="text-4xl font-bold leading-tight tracking-tight sm:text-5xl lg:text-6xl">
+          Never buy the same <span class="text-brass">paint</span> twice.
+        </h1>
+        <p class="mt-6 max-w-xl text-lg leading-relaxed text-slate-300">
+          AzSprue knows what's on your shelf, what your next kit needs and what you still have to buy.
+          Scan the bottles, plan the build, take one list to the shop.
+        </p>
+
+        <!-- Paint pots in the colours from the screenshots -->
+        <div class="mt-8 flex items-center gap-1.5 sm:gap-2" aria-hidden="true">
+          <span class="h-7 w-7 rounded-full sm:h-8 sm:w-8 bg-[#2B2522] ring-2 ring-white/15"></span>
+          <span class="h-7 w-7 rounded-full sm:h-8 sm:w-8 bg-[#CBB047] ring-2 ring-white/15"></span>
+          <span class="h-7 w-7 rounded-full sm:h-8 sm:w-8 bg-[#A7A7A7] ring-2 ring-white/15"></span>
+          <span class="h-7 w-7 rounded-full sm:h-8 sm:w-8 bg-[#3F4A1E] ring-2 ring-white/15"></span>
+          <span class="h-7 w-7 rounded-full sm:h-8 sm:w-8 bg-[#4C4E26] ring-2 ring-white/15"></span>
+          <span class="h-7 w-7 rounded-full sm:h-8 sm:w-8 bg-[#407038] ring-2 ring-white/15"></span>
+          <span class="h-7 w-7 rounded-full sm:h-8 sm:w-8 bg-[#F5B83D] ring-2 ring-white/15"></span>
+          <span class="ml-1 whitespace-nowrap text-sm text-slate-400">+ 8,000 more</span>
+        </div>
+
+        <dl class="mt-10 grid max-w-md grid-cols-3 gap-3 text-center">
+          <div class="flex flex-col rounded-2xl bg-white/5 px-3 py-4 ring-1 ring-white/10">
+            <dt class="text-xs text-slate-400">paints</dt>
+            <dd class="order-first text-2xl font-bold">8,333</dd>
+          </div>
+          <div class="flex flex-col rounded-2xl bg-white/5 px-3 py-4 ring-1 ring-white/10">
+            <dt class="text-xs text-slate-400">brands</dt>
+            <dd class="order-first text-2xl font-bold">20</dd>
+          </div>
+          <div class="flex flex-col rounded-2xl bg-white/5 px-3 py-4 ring-1 ring-white/10">
+            <dt class="text-xs text-slate-400">accounts needed</dt>
+            <dd class="order-first text-2xl font-bold">0</dd>
+          </div>
+        </dl>
+      </div>
+
+      <div class="flex justify-center md:justify-end">
+        <div class="relative w-64 rotate-2 rounded-[2.75rem] bg-slate-950 p-2.5 shadow-2xl shadow-black/50 ring-1 ring-white/10 sm:w-72">
+          <img src="screenshots/01-inventory.png" alt="The inventory: paints with colour swatches, codes and Have and Want counts" class="w-full rounded-[2.25rem]">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Features -->
+    <section id="features" class="mx-auto max-w-6xl px-4 py-20 sm:px-6 md:py-28">
+      <div class="max-w-2xl">
+        <p class="text-sm font-semibold uppercase tracking-wider text-sprue dark:text-sprue-bright">What it does</p>
+        <h2 class="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">Your bench, sorted.</h2>
+        <p class="mt-4 text-lg text-slate-600 dark:text-slate-300">
+          The paint rack, the kit box and the shopping list, all in one place. Works offline, right at the workbench.
+        </p>
+      </div>
+
+      <div class="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        <article class="rounded-3xl bg-slate-50 p-6 ring-1 ring-slate-200 dark:bg-navy dark:ring-white/10">
+          <div class="flex h-11 w-11 items-center justify-center rounded-xl bg-sprue text-white">
+            <svg viewBox="0 0 24 24" class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="8.5" cy="9" r="1.4" fill="currentColor"/><circle cx="13" cy="7.5" r="1.4" fill="currentColor"/><circle cx="16.5" cy="11" r="1.4" fill="currentColor"/><path d="M12 21c-1.5 0-2-1.2-1.5-2.3.6-1.2 0-2.7-1.6-2.7"/></svg>
+          </div>
+          <h3 class="mt-5 text-lg font-semibold">Your whole paint rack</h3>
+          <p class="mt-2 text-slate-600 dark:text-slate-300">8,000+ paints from 20 brands are built in: Vallejo, Tamiya, AK, Mr Hobby, Army Painter, Citadel, Humbrol and more. Anything missing? Add your own.</p>
+        </article>
+
+        <article class="rounded-3xl bg-slate-50 p-6 ring-1 ring-slate-200 dark:bg-navy dark:ring-white/10">
+          <div class="flex h-11 w-11 items-center justify-center rounded-xl bg-sprue text-white">
+            <svg viewBox="0 0 24 24" class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 8V5.5A1.5 1.5 0 0 1 5.5 4H8M16 4h2.5A1.5 1.5 0 0 1 20 5.5V8M20 16v2.5a1.5 1.5 0 0 1-1.5 1.5H16M8 20H5.5A1.5 1.5 0 0 1 4 18.5V16"/><path d="M8 8.5v7M10.5 8.5v7M13 8.5v7M16 8.5v7"/></svg>
+          </div>
+          <h3 class="mt-5 text-lg font-semibold">Scan, don't type</h3>
+          <p class="mt-2 text-slate-600 dark:text-slate-300">Point the camera at your bottles, one after another. Unknown barcode? The app reads the label, you pick the paint once, and it's known from then on.</p>
+        </article>
+
+        <article class="rounded-3xl bg-slate-50 p-6 ring-1 ring-slate-200 dark:bg-navy dark:ring-white/10">
+          <div class="flex h-11 w-11 items-center justify-center rounded-xl bg-sprue text-white">
+            <svg viewBox="0 0 24 24" class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 20 7.5v9L12 21l-8-4.5v-9z"/><path d="M4 7.5 12 12l8-4.5M12 12v9"/></svg>
+          </div>
+          <h3 class="mt-5 text-lg font-semibold">Every kit knows what it needs</h3>
+          <p class="mt-2 text-slate-600 dark:text-slate-300">Add a model, keep the instructions with it and list its paints. See at a glance what you have, what's missing and what you can swap.</p>
+        </article>
+
+        <article class="rounded-3xl bg-slate-50 p-6 ring-1 ring-slate-200 dark:bg-navy dark:ring-white/10">
+          <div class="flex h-11 w-11 items-center justify-center rounded-xl bg-brass text-navy">
+            <svg viewBox="0 0 24 24" class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l1.8 4.7L18.5 9.5l-4.7 1.8L12 16l-1.8-4.7L5.5 9.5l4.7-1.8z"/><path d="M18.5 15.5l.8 2 2 .8-2 .8-.8 2-.8-2-2-.8 2-.8z"/></svg>
+          </div>
+          <h3 class="mt-5 text-lg font-semibold">Snap the paint chart</h3>
+          <p class="mt-2 text-slate-600 dark:text-slate-300">Photograph the paint table from the instructions and AI reads it for you, with your own OpenAI key. You check every line before anything is saved.</p>
+        </article>
+
+        <article class="rounded-3xl bg-slate-50 p-6 ring-1 ring-slate-200 dark:bg-navy dark:ring-white/10">
+          <div class="flex h-11 w-11 items-center justify-center rounded-xl bg-sprue text-white">
+            <svg viewBox="0 0 24 24" class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 8h14l-3.5-3.5M20 16H6l3.5 3.5"/></svg>
+          </div>
+          <h3 class="mt-5 text-lg font-semibold">Out of it? Use what's close</h3>
+          <p class="mt-2 text-slate-600 dark:text-slate-300">The kit calls for a paint you don't have? See equivalents from other brands, with the ones already on your shelf first.</p>
+        </article>
+
+        <article class="rounded-3xl bg-slate-50 p-6 ring-1 ring-slate-200 dark:bg-navy dark:ring-white/10">
+          <div class="flex h-11 w-11 items-center justify-center rounded-xl bg-sprue text-white">
+            <svg viewBox="0 0 24 24" class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 4h2.2l2.3 11h10.8L20.5 7H6.4"/><circle cx="9.5" cy="19" r="1.4"/><circle cx="17" cy="19" r="1.4"/></svg>
+          </div>
+          <h3 class="mt-5 text-lg font-semibold">One list for the shop</h3>
+          <p class="mt-2 text-slate-600 dark:text-slate-300">Everything your kits are missing plus your wishlist, in one list. Mark paints as bought, drop what you don't need, or share it.</p>
+        </article>
+      </div>
+
+      <div class="mt-5 flex flex-col gap-4 rounded-3xl bg-slate-50 p-6 ring-1 ring-slate-200 sm:flex-row sm:items-center dark:bg-navy dark:ring-white/10">
+        <div class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-sprue text-white">
+          <svg viewBox="0 0 24 24" class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 18a4.5 4.5 0 0 1-.6-9 6 6 0 0 1 11.4 1.5A3.8 3.8 0 0 1 17 18"/><path d="M12 12v8M9 15l3-3 3 3"/></svg>
+        </div>
+        <p class="text-slate-600 dark:text-slate-300"><span class="font-semibold text-slate-900 dark:text-white">Backups you control.</span> Save everything to iCloud Drive or Files, or pick a folder for automatic backups. Restore after a preview, with undo. Export and import your paints as CSV.</p>
+      </div>
+    </section>
+
+    <!-- Screenshots -->
+    <section id="screenshots" class="bg-slate-50 py-20 dark:bg-navy md:py-28">
+      <div class="mx-auto max-w-6xl px-4 sm:px-6">
+        <p class="text-sm font-semibold uppercase tracking-wider text-sprue dark:text-sprue-bright">Screenshots</p>
+        <h2 class="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">Have a look.</h2>
+      </div>
+      <div class="mx-auto mt-12 flex max-w-6xl snap-x snap-mandatory gap-6 overflow-x-auto px-4 pb-6 sm:px-6">
+        <figure class="w-60 shrink-0 snap-start sm:w-64">
+          <div class="rounded-[2.5rem] bg-slate-950 p-2 shadow-xl ring-1 ring-black/5"><img loading="lazy" src="screenshots/01-inventory.png" alt="Inventory list with colour swatches, brands, codes and counts" class="w-full rounded-[2rem]"></div>
+          <figcaption class="mt-4 text-center font-medium">Your whole rack, one list</figcaption>
+        </figure>
+        <figure class="w-60 shrink-0 snap-start sm:w-64">
+          <div class="rounded-[2.5rem] bg-slate-950 p-2 shadow-xl ring-1 ring-black/5"><img loading="lazy" src="screenshots/02-paint-detail.png" alt="A paint's details with stock and its saved barcode" class="w-full rounded-[2rem]"></div>
+          <figcaption class="mt-4 text-center font-medium">Every bottle, with its barcode</figcaption>
+        </figure>
+        <figure class="w-60 shrink-0 snap-start sm:w-64">
+          <div class="rounded-[2.5rem] bg-slate-950 p-2 shadow-xl ring-1 ring-black/5"><img loading="lazy" src="screenshots/03-convert.png" alt="Equivalents of a paint from other brands" class="w-full rounded-[2rem]"></div>
+          <figcaption class="mt-4 text-center font-medium">Out of it? Here's what's close</figcaption>
+        </figure>
+        <figure class="w-60 shrink-0 snap-start sm:w-64">
+          <div class="rounded-[2.5rem] bg-slate-950 p-2 shadow-xl ring-1 ring-black/5"><img loading="lazy" src="screenshots/04-model.png" alt="A P-51D model with its paints marked owned or missing" class="w-full rounded-[2rem]"></div>
+          <figcaption class="mt-4 text-center font-medium">What this kit needs</figcaption>
+        </figure>
+        <figure class="w-60 shrink-0 snap-start sm:w-64">
+          <div class="rounded-[2.5rem] bg-slate-950 p-2 shadow-xl ring-1 ring-black/5"><img loading="lazy" src="screenshots/05-shopping.png" alt="Shopping list with a paint to buy" class="w-full rounded-[2rem]"></div>
+          <figcaption class="mt-4 text-center font-medium">Buy only what's missing</figcaption>
+        </figure>
+        <figure class="w-60 shrink-0 snap-start sm:w-64">
+          <div class="rounded-[2.5rem] bg-slate-950 p-2 shadow-xl ring-1 ring-black/5"><img loading="lazy" src="screenshots/06-backup.png" alt="Backup and restore screen" class="w-full rounded-[2rem]"></div>
+          <figcaption class="mt-4 text-center font-medium">Backups you control</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Privacy -->
+    <section class="mx-auto max-w-6xl px-4 py-20 sm:px-6 md:py-28">
+      <div class="relative overflow-hidden rounded-[2rem] bg-navy px-6 py-12 text-white sm:px-12">
+        <div class="pointer-events-none absolute -right-24 -top-24 h-72 w-72 rounded-full bg-sprue/30 blur-3xl"></div>
+        <div class="relative max-w-2xl">
+          <h2 class="text-3xl font-bold tracking-tight sm:text-4xl">Your stash stays yours.</h2>
+          <p class="mt-4 text-lg leading-relaxed text-slate-300">
+            No account, no ads, no tracking. Everything lives on your iPhone and in the backups you make.
+            The only things that leave it are the ones you send: pages to OpenAI with your own key, and unknown barcodes if you turn on the online lookup.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About and support -->
+    <section id="support" class="mx-auto grid max-w-6xl gap-5 px-4 pb-20 sm:px-6 md:grid-cols-2 md:pb-28">
+      <div class="rounded-3xl bg-slate-50 p-8 ring-1 ring-slate-200 dark:bg-navy dark:ring-white/10">
+        <h2 class="text-2xl font-bold tracking-tight">Why I made it</h2>
+        <p class="mt-4 text-slate-600 dark:text-slate-300">
+          Hi, I'm Alexey. I made AzSprue to keep track of my own paints and kits: what I have, what each kit needs and what I still have to buy. If it helps at your bench too, even better.
+        </p>
+        <a href="https://www.linkedin.com/in/alexeyzatsepin/" class="mt-6 inline-flex items-center gap-2 font-semibold text-sprue hover:underline dark:text-sprue-bright">Alexey Zatsepin on LinkedIn <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="rounded-3xl bg-slate-50 p-8 ring-1 ring-slate-200 dark:bg-navy dark:ring-white/10">
+        <h2 class="text-2xl font-bold tracking-tight">Support</h2>
+        <p class="mt-4 text-slate-600 dark:text-slate-300">Found a bug, missing a paint or got an idea? Write to me.</p>
+        <a href="mailto:cat.of.duty+azsprue@gmail.com" class="mt-6 inline-flex items-center rounded-full bg-sprue px-5 py-3 font-semibold text-white hover:bg-sprue/90">cat.of.duty+azsprue@gmail.com</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t border-slate-200 dark:border-white/10">
+    <div class="mx-auto flex max-w-6xl flex-col gap-4 px-4 py-8 text-sm text-slate-500 sm:flex-row sm:items-center sm:justify-between sm:px-6 dark:text-slate-400">
+      <div class="flex items-center gap-3">
+        <img src="icon.png" alt="" class="h-7 w-7 rounded-lg">
+        <span>© 2026 Alexey Zatsepin</span>
+      </div>
+      <div class="flex gap-6">
+        <a href="privacy/" class="hover:text-slate-900 dark:hover:text-white">Privacy policy</a>
+        <a href="terms/" class="hover:text-slate-900 dark:hover:text-white">Terms of use</a>
+      </div>
+    </div>
+    <p class="mx-auto max-w-6xl px-4 pb-8 text-xs text-slate-400 sm:px-6 dark:text-slate-500">Paint brand names belong to their owners. AzSprue isn't affiliated with any of them.</p>
+  </footer>
+</body>
+</html>

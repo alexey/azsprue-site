@@ -1,11 +1,10 @@
 title: AzSprue
-description: Paint stash and model companion for iPhone
-theme: minima
+description: Never buy the same paint twice. Your paints and model kits on your iPhone.
 exclude:
   - README.md
-# Each page starts with its own heading, so the theme must not print the title again.
+# The home page is its own HTML; the privacy policy and terms use the legal layout.
 defaults:
   - scope:
       path: ""
     values:
-      layout: default
+      layout: legal

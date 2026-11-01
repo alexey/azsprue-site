@@ -1,0 +1,24 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#162C35">
+<link rel="icon" type="image/png" href="{{ include.root }}icon.png">
+<link rel="apple-touch-icon" href="{{ include.root }}icon.png">
+<script src="https://cdn.tailwindcss.com/3.4.17?plugins=typography"></script>
+<script>
+  // The app's colours: navy and teal from the icon, the darker teal accent, brass from the centre dot.
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          navy: { DEFAULT: '#162C35', deep: '#0F2129', soft: '#1E3A45' },
+          sprue: { DEFAULT: '#007A87', light: '#78BFC3', bright: '#3FB8C6' },
+          brass: { DEFAULT: '#E0AD67', dark: '#B9823A' },
+        },
+        fontFamily: {
+          sans: ['-apple-system', 'BlinkMacSystemFont', '"SF Pro Text"', 'system-ui', '"Segoe UI"', 'Roboto', 'Helvetica', 'Arial', 'sans-serif'],
+          mono: ['ui-monospace', '"SF Mono"', 'Menlo', 'monospace'],
+        },
+      },
+    },
+  }
+</script>
